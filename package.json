@@ -1,0 +1,26 @@
+{
+  "name": "second-rest-api-mongodb-native-driver-nodejs-express",
+  "version": "1.0.0",
+  "description": "REST API using MongoDB Node Driver",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trofimenk0/mongodb_native_driver_nodejs_express.git"
+  },
+  "author": "trofimenk0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trofimenk0/mongodb_native_driver_nodejs_express/issues"
+  },
+  "homepage": "https://github.com/trofimenk0/mongodb_native_driver_nodejs_express#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "nodemon": "^2.0.16"
+  }
+}
